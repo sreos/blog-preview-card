@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #F4D04E;
+    display: grid;
+    place-items: center;
+}
+
+.rectangle {
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    border-radius: 20px;
+    width: 384px;
+    padding: 10px;
+    outline: solid black;
+    background-color: white;
+    display: flex;   /* Flexbox kullanarak daha iyi kontrol sağlayın */
+    flex-direction: column;
+    align-items: center;  /* İçerikleri sol tarafa hizala */
+}
+.mini-rectangle {
+    width: 100%;
+    align-self: flex-start;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1px;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 75px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4D04E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    
+}
+p.content {
+    text-align: left;
+    font-size: large;
+    color: #7F7F7F;
+}
+p.publish {
+    text-align: left;
+    width: 92%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.author {
+    display: grid;
+    align-self: flex-start;
+    margin-left: 30px;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    margin: 2px;
+}
+
+.avatar1 {
+    margin-left: 10px;
+}
+
+.name {
+    margin-left: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+h1 {
+    color: #F4D04E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+
+}
